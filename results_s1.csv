@@ -1,0 +1,56 @@
+level,run,lost,document
+L0 no rule,1,2,[F3] Oranges have a lot of vitamin C.
+L0 no rule,2,2,[F3] Oranges have a lot of vitamin C.
+L0 no rule,3,2,[F3] Oranges have a lot of vitamin C.
+L0 no rule,4,2,[F3] Oranges have a lot of vitamin C.
+L0 no rule,5,2,[F3] Oranges have a lot of vitamin C.
+L1 rounds,1,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L1 rounds,2,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L1 rounds,3,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L1 rounds,4,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L1 rounds,5,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L2 manager,1,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L2 manager,2,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L2 manager,3,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L2 manager,4,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L2 manager,5,0,"[F1] Apples grow on trees.
+[F2] Bananas are yellow.
+[F3] Oranges have a lot of vitamin C."
+L3 versioned,1,0,"[F1] Apples grow on trees.   (version 1, by Agent 1)
+[F2] Bananas are yellow.   (version 2, by Agent 2)
+[F3] Oranges are a good source of vitamin C.   (version 3, by Agent 3)
+"
+L3 versioned,2,0,"[F1] Apples grow on trees.   (version 1, by Agent 1)
+[F2] Bananas are yellow.   (version 2, by Agent 2)
+[F3] Oranges are a rich source of vitamin C.   (version 3, by Agent 3)
+"
+L3 versioned,3,0,"[F1] Apples grow on trees.   (version 1, by Agent 1)
+[F2] Bananas are yellow.   (version 2, by Agent 2)
+[F3] Oranges are a rich source of vitamin C.   (version 3, by Agent 3)
+"
+L3 versioned,4,0,"[F1] Apples grow on trees.   (version 1, by Agent 1)
+[F2] Bananas are yellow.   (version 2, by Agent 2)
+[F3] Oranges are a good source of vitamin C.   (version 3, by Agent 3)
+"
+L3 versioned,5,0,"[F1] Apples grow on trees.   (version 1, by Agent 1)
+[F2] Bananas are yellow.   (version 2, by Agent 2)
+[F3] Oranges are a good source of vitamin C.   (version 3, by Agent 3)
+"

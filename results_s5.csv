@@ -1,0 +1,116 @@
+level,run,received,answer,facts missed
+L0 no rule,1,LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.,"FOCUS: Apples
+DEADLINE: 2 June
+REPORT WRITER: Worker 1",3
+L0 no rule,2,LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.,"FOCUS: Apples
+DEADLINE: 2 June
+REPORT WRITER: Worker 1",3
+L0 no rule,3,LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.,"FOCUS: Apples
+DEADLINE: 2 June
+REPORT WRITER: Worker 1",3
+L0 no rule,4,LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.,"FOCUS: Apples
+DEADLINE: 2 June
+REPORT WRITER: Worker 1",3
+L0 no rule,5,LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.,"FOCUS: Apples
+DEADLINE: 2 June
+REPORT WRITER: Worker 1",3
+L1 rounds,1,"Handoff from the lead:
+Welcome to the team. Our focus has changed from apples to **bananas**, so the earlier apple sources and Worker 2's two apple article summaries are no longer the priority. The final report deadline is now **9 June** (it was 2 June), and **Worker 3** is writing the report instead of Worker 1. Worker 1 is collecting banana sources, and Worker 3 has started an outline of the banana report. Please coordinate with Worker 1 for source collection and with Worker 3 for the outline and report structure.","FOCUS: Bananas (the team has moved on from apples; earlier apple sources and Worker 2's two apple article summaries are no longer the priority)
+DEADLINE: 9 June (moved from 2 June)
+REPORT WRITER: Worker 3 (replacing Worker 1)",0
+L1 rounds,2,"Handoff from the lead:
+Welcome to the team. Our research focus is now **bananas**, not apples, so the earlier apple sources and Worker 2's two apple article summaries are no longer the target unless we decide to reuse them. The final report deadline is now **9 June** (it was 2 June). **Worker 3 writes the final report**, and has started an outline, so coordinate with them before drafting anything. Worker 1 has begun collecting banana sources, so ask them for their current list to avoid duplicating work. Your first task is to help expand the banana source base and pass useful findings to Worker 3.","FOCUS: Bananas (the team has moved away from the earlier apple research; the apple sources and Worker 2's two apple article summaries are not the target unless the lead decides to reuse them).
+DEADLINE: 9 June (moved from 2 June).
+REPORT WRITER: Worker 3, who is writing the final report and has already started an outline.",0
+L1 rounds,3,"Handoff from the lead:
+Welcome to the team. Our research focus is now **bananas**, not apples, so the earlier apple sources and Worker 2's apple summaries are out of scope unless we decide otherwise. The final report is due **9 June** (moved from 2 June), and **Worker 3** is now writing it, so Worker 3's banana report outline is the current structure to build on. Worker 1 has started collecting banana sources, so check with them to avoid duplicating searches. Please coordinate with Worker 3 on what they need from you, and ask me if anything about scope or roles is unclear.","FOCUS: Bananas (the team has moved away from apples; earlier apple sources and Worker 2's apple summaries are out of scope unless the lead decides otherwise).
+DEADLINE: 9 June (moved from 2 June).
+REPORT WRITER: Worker 3, who is building the final report on their banana report outline.",0
+L1 rounds,4,"Handoff from the lead:
+Welcome to the team. Our research focus has changed from apples to bananas, so the earlier apple work is no longer the focus, though it may be reusable if needed. The final report is now due on 9 June, not 2 June. Worker 3 is writing the final report, replacing Worker 1, and has started an outline. Worker 1 has begun collecting banana sources, so check with them and Worker 3 before you start to avoid duplicating work.","FOCUS: Bananas (the team's research focus has changed from apples; earlier apple work is no longer the focus but may be reusable if needed)
+DEADLINE: 9 June (the final report deadline was moved from 2 June)
+REPORT WRITER: Worker 3 (replacing Worker 1, and has already started an outline)",0
+L1 rounds,5,"Handoff from the lead:
+Welcome to the team. Our research focus is now **bananas**, replacing the earlier apples topic, so the apple sources and summaries from Workers 1 and 2 are no longer in scope unless the lead says otherwise. The final report deadline has moved to **9 June** (previously 2 June). **Worker 3** now writes the final report, not Worker 1, and Worker 3 has started the report outline. Worker 1 has begun collecting banana sources, so coordinate with Worker 1 for those and with Worker 3 on how your work fits the outline.","FOCUS: Bananas (replaces the earlier apples topic; apple sources and summaries from Workers 1 and 2 are out of scope unless the lead says otherwise)
+DEADLINE: 9 June (moved from 2 June)
+REPORT WRITER: Worker 3",0
+L2 manager,1,"LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.
+Worker 1: First sources on apples collected.
+Worker 2: Two articles about apples summarised.
+LEAD: Change of plan. From now on, our research focus is bananas.
+LEAD: The deadline for the report moved to 9 June.
+Worker 1: Started collecting sources on bananas.
+LEAD: Change of roles: Worker 3 now writes the final report instead of Worker 1.
+Worker 3: Outline of the final report on bananas started.","FOCUS: Bananas (changed from apples by the LEAD)
+DEADLINE: 9 June (moved from 2 June)
+REPORT WRITER: Worker 3 (replaced Worker 1)",0
+L2 manager,2,"LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.
+Worker 1: First sources on apples collected.
+Worker 2: Two articles about apples summarised.
+LEAD: Change of plan. From now on, our research focus is bananas.
+LEAD: The deadline for the report moved to 9 June.
+Worker 1: Started collecting sources on bananas.
+LEAD: Change of roles: Worker 3 now writes the final report instead of Worker 1.
+Worker 3: Outline of the final report on bananas started.","FOCUS: Bananas (changed from apples by the LEAD)
+DEADLINE: 9 June (moved from 2 June)
+REPORT WRITER: Worker 3 (replaced Worker 1)",0
+L2 manager,3,"LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.
+Worker 1: First sources on apples collected.
+Worker 2: Two articles about apples summarised.
+LEAD: Change of plan. From now on, our research focus is bananas.
+LEAD: The deadline for the report moved to 9 June.
+Worker 1: Started collecting sources on bananas.
+LEAD: Change of roles: Worker 3 now writes the final report instead of Worker 1.
+Worker 3: Outline of the final report on bananas started.","FOCUS: Bananas (changed from apples by the LEAD)
+DEADLINE: 9 June (moved from 2 June)
+REPORT WRITER: Worker 3 (replaced Worker 1)",0
+L2 manager,4,"LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.
+Worker 1: First sources on apples collected.
+Worker 2: Two articles about apples summarised.
+LEAD: Change of plan. From now on, our research focus is bananas.
+LEAD: The deadline for the report moved to 9 June.
+Worker 1: Started collecting sources on bananas.
+LEAD: Change of roles: Worker 3 now writes the final report instead of Worker 1.
+Worker 3: Outline of the final report on bananas started.","FOCUS: Bananas (changed from apples by the LEAD)
+DEADLINE: 9 June (moved from 2 June)
+REPORT WRITER: Worker 3 (replaced Worker 1)",0
+L2 manager,5,"LEAD: Our research focus is apples. The deadline for the report is 2 June. Worker 1 writes the final report.
+Worker 1: First sources on apples collected.
+Worker 2: Two articles about apples summarised.
+LEAD: Change of plan. From now on, our research focus is bananas.
+LEAD: The deadline for the report moved to 9 June.
+Worker 1: Started collecting sources on bananas.
+LEAD: Change of roles: Worker 3 now writes the final report instead of Worker 1.
+Worker 3: Outline of the final report on bananas started.","FOCUS: Bananas (changed from apples by the LEAD)
+DEADLINE: 9 June (moved from 2 June)
+REPORT WRITER: Worker 3 (replaced Worker 1)",0
+L3 versioned,1,"CURRENT STATE OF THE TEAM (from the shared memory):
+- Focus: bananas (version 2, set by LEAD; replaces apples)
+- Deadline for the report: 9 June (version 2, set by LEAD; replaces 2 June)
+- Final report written by: Worker 3 (version 2, set by LEAD; replaces Worker 1)","FOCUS: Bananas (version 2, set by LEAD; replaces apples)
+DEADLINE: 9 June (version 2, set by LEAD; replaces 2 June)
+REPORT WRITER: Worker 3 (version 2, set by LEAD; replaces Worker 1)",0
+L3 versioned,2,"CURRENT STATE OF THE TEAM (from the shared memory):
+- Focus: bananas (version 2, set by LEAD; replaces apples)
+- Deadline for the report: 9 June (version 2, set by LEAD; replaces 2 June)
+- Final report written by: Worker 3 (version 2, set by LEAD; replaces Worker 1)","FOCUS: Bananas (version 2, set by LEAD; replaces the earlier apples focus)
+DEADLINE: 9 June (version 2, set by LEAD; replaces 2 June)
+REPORT WRITER: Worker 3 (version 2, set by LEAD; replaces Worker 1)",0
+L3 versioned,3,"CURRENT STATE OF THE TEAM (from the shared memory):
+- Focus: bananas (version 2, set by LEAD; replaces apples)
+- Deadline for the report: 9 June (version 2, set by LEAD; replaces 2 June)
+- Final report written by: Worker 3 (version 2, set by LEAD; replaces Worker 1)","FOCUS: Bananas (version 2, set by LEAD; this replaces the earlier apples focus)
+DEADLINE: 9 June (version 2, set by LEAD; this replaces the earlier 2 June deadline)
+REPORT WRITER: Worker 3 (version 2, set by LEAD; this replaces Worker 1)",0
+L3 versioned,4,"CURRENT STATE OF THE TEAM (from the shared memory):
+- Focus: bananas (version 2, set by LEAD; replaces apples)
+- Deadline for the report: 9 June (version 2, set by LEAD; replaces 2 June)
+- Final report written by: Worker 3 (version 2, set by LEAD; replaces Worker 1)","FOCUS: Bananas (version 2, set by LEAD; replaces apples)
+DEADLINE: 9 June (version 2, set by LEAD; replaces 2 June)
+REPORT WRITER: Worker 3 (version 2, set by LEAD; replaces Worker 1)",0
+L3 versioned,5,"CURRENT STATE OF THE TEAM (from the shared memory):
+- Focus: bananas (version 2, set by LEAD; replaces apples)
+- Deadline for the report: 9 June (version 2, set by LEAD; replaces 2 June)
+- Final report written by: Worker 3 (version 2, set by LEAD; replaces Worker 1)","FOCUS: Bananas (version 2, set by LEAD; replaces the earlier apples focus)
+DEADLINE: 9 June (version 2, set by LEAD; replaces 2 June)
+REPORT WRITER: Worker 3 (version 2, set by LEAD; replaces Worker 1)",0
